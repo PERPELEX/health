@@ -23,7 +23,7 @@ const JoinUs = () => {
             stroke-width="2"
             stroke="currentColor"
             class="size-6"
-            className="w-6 h-6 ml-2"
+            className="w-6 h-6 ml-4"
           >
             <path
               stroke-linecap="round"
