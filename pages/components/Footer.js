@@ -16,8 +16,8 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-50 text-gray-800 px-8 py-12">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer className="bg-gray-50 text-gray-800 px-6 sm:px-8 py-8 sm:py-12">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {/* Logo and Description */}
         <div>
           <div className="flex items-center mb-4">

@@ -38,10 +38,12 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section id="how" className="py-16">
-      <h2 className="text-5xl font-semibold text-center mb-10">How It Works</h2>
+    <section id="how" className="py-16 px-4">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-center mb-10">
+        How It Works
+      </h2>
       <div className="flex flex-col md:flex-row justify-between items-center">
-        <div className="flex-1 space-y-4 max-w-[45%]">
+        <div className="flex-1 space-y-4 w-full md:max-w-[45%]">
           {items.map((item, index) => (
             <React.Fragment key={index}>
               <div
@@ -57,7 +59,7 @@ const HowItWorks = () => {
                       height={32}
                       className="w-8 h-8"
                     />
-                    <h3 className="font-semibold text-2xl tracking-wider">
+                    <h3 className="font-semibold text-lg sm:text-xl md:text-2xl tracking-wider">
                       {item.title}
                     </h3>
                   </div>
@@ -79,7 +81,7 @@ const HowItWorks = () => {
                   </svg>
                 </div>
                 {expandedIndex === index && (
-                  <p className="text-sm tracking-wide text-gray-600 mt-4">
+                  <p className="text-sm sm:text-base tracking-wide text-gray-600 mt-4">
                     {item.details}
                   </p>
                 )}
@@ -91,7 +93,7 @@ const HowItWorks = () => {
           ))}
         </div>
         <Image
-          className="w-64 md:w-[30rem]"
+          className="w-48 sm:w-64 md:w-[28rem] mt-8 md:mt-0"
           src="/l2.png"
           alt="Doctor"
           width={480}

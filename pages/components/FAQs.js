@@ -40,7 +40,7 @@ const FAQs = () => {
             >
               <div className="flex justify-between items-center">
                 <h4 className="font-medium text-2xl">{faq.question}</h4>
-                <div className="w-10 h-10 flex items-center justify-center rounded-full bg-[#b6e7ff]">
+                <div className="w-10 h-8 lg:w-10 lg:h-10 flex items-center justify-center rounded-full bg-[#b6e7ff]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className={`w-6 h-6 text-white transform transition-transform duration-300 ${
